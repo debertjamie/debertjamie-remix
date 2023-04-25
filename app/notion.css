@@ -1,0 +1,174 @@
+.containern {
+  padding: 0 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.containern h1 {
+  font-size: 32px;
+}
+
+.containern img {
+  width: 100%;
+  height: auto;
+}
+
+.containern figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.containern figcaption {
+  opacity: 0.6;
+}
+
+.blockquote {
+  display: block;
+  padding-block-start: 0.5em;
+  padding-block-end: 0.5em;
+  padding-inline-start: 20px;
+  padding-inline-end: 20px;
+  border-left-width: 4px;
+  border-left-color: #111;
+}
+
+.hr {
+  color: #111;
+  background-color: #111;
+}
+
+.name {
+  font-size: 1.75rem;
+}
+
+.back {
+  display: inline-block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.code {
+  font-family: monospace;
+  background-color: rgb(242, 242, 242);
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.pre {
+  background-color: rgb(242, 242, 242);
+  padding: 2px 4px;
+  line-height: 2.3;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+.code_block {
+  padding: 10px;
+  font-family: monospace;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.file {
+  padding: 2px 4px;
+  text-decoration: none;
+}
+
+.file a {
+  color: inherit;
+}
+
+.file:hover {
+  background: rgba(55, 53, 47, 0.08);
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bookmark {
+  display: block;
+  margin-bottom: 10px;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 2px 4px;
+}
+
+.table {
+  border: 1px solid currentColor;
+  border-collapse: collapse;
+}
+.table th {
+  border: 1px solid currentColor;
+  background-color: rgb(242, 242, 242);
+  padding: 6px 12px;
+}
+.table td {
+  border: 1px solid currentColor;
+  padding: 6px 12px;
+}
+
+.row {
+  display: flex;
+}
+
+.row > div {
+  flex: 1;
+}
+
+.ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.childPage {
+  border: 1px solid currentColor;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .code,
+  .table,
+  .pre {
+    background-color: rgb(15, 8, 28);
+  }
+  .file:hover {
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border-radius: 2px;
+  }
+}

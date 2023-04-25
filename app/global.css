@@ -1,0 +1,40 @@
+@tailwind base;
+
+@layer base {
+  @font-face {
+    font-family: Raleway;
+    font-weight: 400;
+    src: url(/fonts/Raleway.ttf);
+  }
+  @font-face {
+    font-family: Raleway;
+    font-weight: 500;
+    src: url(/fonts/Raleway.ttf);
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #0077c0;
+  color: #eff5f5;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 1px #00337c;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 100vh;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #0077c0;
+  border-radius: 100vh;
+}
